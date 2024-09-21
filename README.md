@@ -15,31 +15,8 @@ This project is a React-based web application that features a search bar allowin
 - **CSS:** Styling for the UI.
 - **JSON:** Country data is stored locally in a JSON file.
 
-## 📦 Installation
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/Thirupy/Fast-Finder.git
-Navigate to the project directory:
-
-bash
-Copy code
-cd Fast-Finder
-Install dependencies:
-
-Ensure you have Node.js installed, then run:
-
-bash
-Copy code
-npm install
-Start the development server:
-
-bash
-Copy code
-npm start
-This will run the app in development mode. Open http://localhost:3000 to view it in the browser.
-
+```
 📁 Project Structure
 .
 ├── public
@@ -59,7 +36,8 @@ This will run the app in development mode. Open http://localhost:3000 to view it
 ├── README.md                   # This file
 ├── package.json                # Project metadata and dependencies
 └── package-lock.json           # Dependency tree lock file
-
+```
+```
 📋 Example of countries.json file structure:
 [
   {
@@ -84,6 +62,7 @@ This will run the app in development mode. Open http://localhost:3000 to view it
     "currency": "Brazilian Real"
   }
 ]
+```
 🎯 Usage
 Enter the name of a country or its capital in the search bar.
 As you type, suggestions will appear based on your input.
